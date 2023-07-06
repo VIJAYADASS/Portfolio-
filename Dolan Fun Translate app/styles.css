@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+ 
+
+*{
+    box-sizing: border-box;
+}   
+
+:root{
+    --width-break: 500px;
+    --black:#333333;
+}
+body{
+    font-family: 'Dancing Script', cursive;
+    margin: 0;
+    color:#333333
+} 
+
+nav{
+    background-color:  rgb(253 186 116);
+    text-align:  center;    
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    padding-top: 0.5rem;
+    font-family: 'Dancing Script', cursive;
+}
+
+main{
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--width-break);
+}
+textarea{
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 2rem;
+    font-size: large;
+    font-family: 'Dancing Script', cursive;
+}
+button{
+    background-color: rgb(253 186 116);
+    border: none;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    font-family: 'Dancing Script', cursive;
+    font-size: large;
+   
+    border-bottom-right-radius: 1rem;
+}
+
+#Output{
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 10vh;
+    max-height: 20vh;
+    overflow:scroll;
+    border: 1px solid gray;
+}
+
+footer{
+    font-family: 'Dancing Script', cursive;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color:  rgb(253 186 116);
+    text-align: center;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    font-size :larger ;
+     
+}
+footer p {
+    max-width: var(--width-break);
+    margin: auto;
+}
